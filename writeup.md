@@ -291,8 +291,11 @@ The last image was a slippery road sign and the model didn't recognize it as suc
 | ~.0				    | Right of way at the next interscction			|
 
 So for the last image the model thought the sign was a double curve:
+
 ![alt text][pic6] 
+
 Instead of a slippery road:
+
 ![alt text][pic5] 
 
 
