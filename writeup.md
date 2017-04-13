@@ -192,18 +192,23 @@ My final model reached 94.2% accuracy with the validation set, and 93.1% accurac
 
 Here are five German traffic signs that I found on the web:
 * Speed limit of 20 Kmh:
+
 ![alt text][pic1] 
 
 * Speed limit of 60 Kmh:
+
 ![alt text][pic2] 
 
 * No passing:
+
 ![alt text][pic3] 
 
 * Stop:
+
 ![alt text][pic4]
  
 * Slippery road:
+
 ![alt text][pic5]
 
 The original images I found on the internet were of much higher resulotion and did not have the same width and height. So I resized each picture to 32x32 pixels. I also reviewed examples from the original data set to look at the average proportion of sign v. background on the image used. My goal was to make these 5 new pictures as close as possible to the images used to train the model, in order to increase the model prediction.
