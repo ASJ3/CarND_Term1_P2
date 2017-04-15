@@ -30,6 +30,7 @@ Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/4
 [LeNet]: ./examples/lenet.png "LeNet 5"
 [bars]: ./examples/bars.png "traffic signs data sets"
 [table]: ./examples/table.png "Categories of traffic signs"
+[analysis]: ./examples/analysis.png "# of images per category"
 
 ---
 ### Writeup / README
@@ -59,6 +60,11 @@ Here are descriptions of each unique traffic sign label in the data set:
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is broken down among the 3 sets
 
 ![alt text][bars]
+
+Furthermore, an exploration of the number of images in the training set and testing set shows that not all traffic signs are represented equally. Some signs have far more examples that others. However, the proportion of each sign in the training and testing sets is about the same.
+
+![alt text][analysis]
+
 
 [//]: # (Image References)
 
@@ -137,8 +143,9 @@ Source: Yan LeCun
 [pic2]: ./examples/3_speed_limit_60kmh.jpg "60 Kmh speed limit"
 [pic3]: ./examples/9_no_passing.jpg "No passing"
 [pic4]: ./examples/14_stop.jpg "Stop"
-[pic5]: ./examples/23_slippery_road.jpg "Stop"
+[pic5]: ./examples/23_slippery_road.jpg "Slippery road“
 [pic6]: ./examples/21_double_curve.jpg "Double curve"
+
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
